@@ -1,7 +1,7 @@
 <template>
   <div>
-    <b-container max-width="200px">
-      <b-row class="dice-button">
+    <b-container>
+      <b-row class="mt-0 dice-button">
         <b-col>
           <b-button
             :disabled="canAddDice === false"
@@ -375,6 +375,6 @@ export default defineComponent({
 
 <style scoped>
 .dice-button button {
-  width: 120px;
+  min-width: 75px;
 }
 </style>
